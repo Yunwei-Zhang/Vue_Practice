@@ -1,0 +1,132 @@
+::-webkit-scrollbar { width:0px; height:0px; }
+.resume_bg{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 3000px;
+    overflow-x: hidden;
+    overflow-y: unset;
+    background-color: rgb(0, 0, 3);
+}
+.resume_mid{
+    height: 100%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgba(255, 255, 255, 0.9);
+    align-items: center;
+}
+.resume_intro{
+    width: 100%;
+    height: 700px;
+    background-color: gray;
+}
+.resume_title{
+    margin-bottom: 50px;
+    font-size: 42px;
+    font-weight: 500;
+    font-style: oblique;
+    color: white;
+    text-align: center;
+}
+.resume_intro_left{
+    float: left;
+    height: 480px;
+    width: 45%;
+    margin-left: 10%;
+    border: 1.5px white solid;
+    border-radius: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    overflow-x: hidden;
+}
+.resume_intro_right{
+    float: right;
+    height: 320px;
+    width: 35%;
+    margin-right: 5%;
+    margin-top: 70px;
+}
+.resume_intro_left_title{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    color: white;
+}
+.resume_intro_left_subtitle{
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+}
+.resume_intro_left_text{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.75);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* skills */
+.resume_skills{
+    width: 100%;
+    height: 1300px;
+    padding: 25px;
+    background-color: rgba(109, 109, 0, 0.2);
+    text-align: center;
+}
+.resume_abilitytitle{
+    font-size: 42px;
+    font-weight: 500;
+    color: white;
+}
+.resume_abilitysubtitle{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: start;
+}
+.resume_skilltitle{
+    text-align: start;
+    border-radius: 20px;
+}
+.resume_skillitemtitle{
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: start;
+}
+.resume_skillitem{
+    height: 15px;
+    width: calc(1% * var(--resume_skillitem_width));
+    background-color: var(--resume_skillitem_color);
+}
+.resume_buildtools{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: oblique;
+}
+.resume_projects_btn{
+    font-size: 17px;
+    width: 230px;
+    height: 40px;
+    border: 0px solid;
+    border-radius: 15px;
+    background-color: gray;
+    color: white;
+}
+.resume_projects_btn:hover{
+    background-color: rgb(78, 77, 77);
+}
+

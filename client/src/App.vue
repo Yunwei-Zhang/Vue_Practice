@@ -1,10 +1,6 @@
 <template>
-  <div id="app">
-  <Header/>
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+  <div class="app_bg">
+    <Header/>
     <router-view/>
   </div>
 </template>
@@ -19,5 +15,5 @@ export default {
 }
 </script>
 
-<style>
+<style scoped src="@/App.css">
 </style>
