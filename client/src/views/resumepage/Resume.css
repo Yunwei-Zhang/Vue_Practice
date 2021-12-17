@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     width: 100vw;
-    height: 3000px;
+    height: 4190px;
     overflow-x: hidden;
     overflow-y: unset;
     background-color: rgb(0, 0, 3);
@@ -55,16 +55,14 @@
 }
 .resume_intro_left_subtitle{
     font-size: 20px;
-    font-style: oblique;
+    font-style: italic;
     font-weight: 400;
     color: white;
     margin-bottom: 40px;
 }
 .resume_intro_left_text{
     font-size: 16px;
-    font-weight: 400;
     color: rgba(255, 255, 255, 0.75);
-    
 }
 
 
@@ -83,7 +81,7 @@
 /* skills */
 .resume_skills{
     width: 100%;
-    height: 1300px;
+    height: 1450px;
     padding: 25px;
     background-color: rgba(109, 109, 0, 0.2);
     text-align: center;
@@ -115,7 +113,7 @@
 .resume_buildtools{
     font-size: 20px;
     font-weight: 400;
-    font-style: oblique;
+    font-style: italic;
 }
 .resume_projects_btn{
     font-size: 17px;
@@ -127,6 +125,165 @@
     color: white;
 }
 .resume_projects_btn:hover{
+    cursor: pointer;
     background-color: rgb(78, 77, 77);
 }
 
+
+
+
+
+
+
+.resume_edu{
+    width: 100%;
+    height: 1050px;
+    background-color: gray;
+    font-size: 100px;
+}
+.resume_edutitle{
+    font-size: 42px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+.resume_edu_item{
+   height: 160px;
+   background-color: gray;
+   color: white;
+   font-size: 20px;
+   font-weight: 400;
+   letter-spacing: 1px;
+   cursor:default;
+}
+.resume_edu_item:hover{
+    color: black;
+}
+.resume_edu_item_subtitle{
+    display: inline;
+    font-size: 16px;
+}
+.resume_edu_item_subcontent{
+    display: inline;
+    font-size: 15px;
+    color: rgba(32, 30, 30, 0.75);
+}
+.resume_edu_item_time{
+   font-style: italic;
+   font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+.resume_message{
+    width: 100%;
+    height: 450px;
+    background-color: rgba(6, 75, 56, 0.5);
+}
+.resume_message_left{
+    float: left;
+    width: 40%;
+    height: 450px;
+}
+.resume_message_title{
+    font-size: 35px;
+    font-weight: 500;
+    color: white;
+    line-height: 450px;
+    margin-left: 15%;
+    font-style: italic;
+}
+.resume_message_right{
+    float: right;
+    width: 50%;
+    height: 450px;
+    border: 0px solid;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    font-style: italic;
+}
+.resume_message_fromemail{
+    height: 30px;
+    width: 54%;
+    margin-top: 70px;
+    color: rgb(160, 160, 160);
+    font-size: 17px;
+    text-align: center;
+    border: 0 solid;
+    border-radius: 10px;
+}
+.resume_message_toemail{
+    height: 30px;
+    width: 60%;
+    margin-top: 30px;
+    color: rgb(160, 160, 160);
+    font-size: 17px;
+    text-align: center;
+    border: 0 solid;
+    border-radius: 10px;
+}
+.resume_message_content{
+    height: 130px;
+    width: 70%;
+    margin-top: 30px;
+    color: rgb(160, 160, 160);
+    font-size: 15px;
+}
+.resume_message_btn{
+font-size: 17px;
+    width: 70%;
+    height: 40px;
+    border: 0px solid;
+    border-radius: 15px;
+    background-color: gray;
+    color: white;
+    margin-top: 30px;
+}
+.resume_message_btn:hover{
+    cursor: pointer;
+    background-color: rgb(78, 77, 77);
+}
+
+
+
+
+.resume_contact{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+
+
+
+
+
+.resume_copyright{
+    height: 140px;
+    width: 100%;
+    border-top: 0.5px gray solid;
+    background-color: rgb(0, 0, 0, 0.8);
+}
+.resume_copyright_title{
+    margin-top: 40px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+}
+.resume_copyright_subtitle{
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 17px;
+    text-align: center;
+}
+.resume_copyright_icons:hover{
+    color: white;
+    cursor: pointer;
+}
